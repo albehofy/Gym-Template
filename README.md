@@ -1,2 +1,2 @@
 # Gym-Template
-gym template with html, CSS, and  javaScript 
+gym template is a reposive template created with html, CSS, and  javaScript 
