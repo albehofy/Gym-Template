@@ -1,0 +1,286 @@
+@media only screen and (max-width: 1022px) {
+  main .news .card-address {
+    font-size: 23px;
+  }
+
+  main .list {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 856px) {
+  footer .footer-subject>div {
+    width: 100%;
+    height: 320px;
+    padding: 30px;
+  }
+
+  footer .footer-subject .footer-about {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 732px) {
+
+  /*general*/
+  .flex-dir-column {
+    flex-direction: column;
+  }
+
+  .yellow-button {
+    display: block;
+    width: 70%;
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  /* header style */
+  header {
+    height: auto;
+  }
+
+  header .main-menue {
+    width: 90%;
+    min-width: 200px;
+    height: auto;
+  }
+
+  header .main-menue {
+    border-radius: 0;
+  }
+
+
+  .links-toggle {
+    display: block;
+    cursor: pointer;
+  }
+
+  header .main-menue .d-flex {
+    flex-direction: column;
+    height: 0;
+    transition: all 500ms linear;
+    overflow: hidden;
+    -webkit-transition: all 500ms linear;
+    -moz-transition: all 500ms linear;
+    -ms-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+  }
+
+  header .main-menue .d-flex.open {
+    height: 450px;
+  }
+
+  header .main-menue .d-flex li {
+    width: 100%;
+    padding: 20px;
+  }
+
+  header .slider h1 {
+    font-size: 18px;
+  }
+
+  .header .slider p {
+    padding: 5px 0 45px;
+    font-size: 14px;
+  }
+
+  header .slider button {
+    width: 180px;
+  }
+
+  header .header-cards {
+    flex-direction: column;
+  }
+
+  header .header-cards .card {
+    width: 100%;
+  }
+
+  main .about .card-text {
+    width: 100%;
+  }
+
+  /* main > .about */
+  main .about>div {
+    height: auto;
+  }
+
+  main .about .card-text {
+    width: 100%;
+  }
+
+  main .card-text .card-address-message {
+    font-size: 25px;
+  }
+
+  main .about .card-text .card-gym-name {
+    font-size: 20px;
+  }
+
+  main .about .card-text p {
+    font-size: 14px;
+  }
+
+  /* main > .news */
+  main .news {
+    height: auto;
+    width: 100%;
+  }
+
+  main .news-container .card-image,
+  main .news-container .card-text {
+    width: 100%;
+  }
+
+  .news .card-text {
+    padding: 37px 0;
+  }
+
+  .news .card-address {
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .news .card-address span {
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+    font-size: 30px;
+  }
+
+  main .list {
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  main .news .news-container {
+    align-items: unset;
+  }
+
+  main .card-image img {
+    width: 98%;
+    display: block;
+    margin: auto;
+  }
+
+  /*  main > header-space section */
+  main .header-name {
+    font-size: 27px;
+  }
+
+  main .header-content {
+    padding: 15px 0;
+    font-size: 17px;
+  }
+
+  /* main > .classes */
+  main .classes {
+    background-size: cover;
+  }
+
+  main .classes-cards {
+    width: 100%;
+  }
+
+  main .classes .card {
+    min-height: 320px;
+    width: 70%;
+    min-width: 200px;
+  }
+}
+
+/* main > .events */
+main .events {
+  height: auto;
+}
+
+main .events h3 {
+  font-size: 30px;
+}
+
+main .events p {
+  width: 90%;
+}
+
+/* main > .contact-us */
+main .contact-us {
+
+  width: 98%;
+}
+
+main .contact-us .map,
+main .contact-us .form {
+  width: 100%;
+}
+
+main .contact-us .form {
+  padding: 30px 0;
+}
+
+main form #form-submit {
+  margin: 30px auto;
+  padding: 20px;
+  min-width: 200px;
+}
+
+/* strat footer style */
+footer p {
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+footer .footer-subject {
+  width: 100%;
+  padding: 20px 10px;
+}
+
+footer .footer-about h3,
+footer .footer-address h3,
+footer .footer-timing h3 {
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px 10px;
+  margin: 15px 0;
+  border-bottom: 2px solid var(--pink);
+
+}
+
+footer .footer-about p {
+  width: 100%;
+}
+
+footer .social-media {
+  width: 280px;
+  padding: 30px 50px 30px 0;
+}
+
+footer .footer-address .address-special-text {
+  width: 25%;
+}
+
+footer .footer-timing .Timing-special-text {
+  width: 30%;
+}
+
+@media only screen and (max-width:300px) {
+  body main .classes .card {
+    height: 220px;
+    min-height: auto;
+  }
+
+  main .news .card-address {
+    font-size: 13px;
+  }
+
+  main .events {
+    background-size: cover;
+  }
+
+  .news .card-address span {
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+  }
+}
